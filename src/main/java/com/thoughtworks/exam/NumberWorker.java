@@ -32,7 +32,7 @@ public class NumberWorker {
 	}
 	
 	public List<String> getNumbers(){
-		List<String> list = new ArrayList<>();
+		List<String> list = new ArrayList<String>();
 		for (int i = 1; i <= 100; i++) {
 			list.add(this.getNumber(i));
 		}
